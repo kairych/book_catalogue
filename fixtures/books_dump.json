@@ -1,0 +1,267 @@
+[
+{
+  "model": "books.book",
+  "pk": 1,
+  "fields": {
+    "title": "War and Peace",
+    "description": "War and Peace broadly focuses on Napoleon’s invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to fight in the war against Napoleon; and Natasha Rostov, the beautiful young daughter of a nobleman who intrigues both men.",
+    "publication_date": "1869-01-01",
+    "genre": [
+      1,
+      2,
+      7
+    ],
+    "author": [
+      1
+    ],
+    "favorites": []
+  }
+},
+{
+  "model": "books.book",
+  "pk": 2,
+  "fields": {
+    "title": "Crime and Punishment",
+    "description": "Raskolnikov, a destitute and desperate former student, wanders through the slums of St Petersburg and commits a random murder without remorse or regret. He imagines himself to be a great man, a Napoleon: acting for a higher purpose beyond conventional moral law. But as he embarks on a dangerous game of cat and mouse with a suspicious police investigator, Raskolnikov is pursued by the growing voice of his conscience and finds the noose of his own guilt tightening around his neck. Only Sonya, a downtrodden sex worker, can offer the chance of redemption.",
+    "publication_date": "1866-01-01",
+    "genre": [
+      1,
+      2
+    ],
+    "author": [
+      2
+    ],
+    "favorites": []
+  }
+},
+{
+  "model": "books.book",
+  "pk": 3,
+  "fields": {
+    "title": "The Da Vinci Code",
+    "description": "While in Paris on business, Harvard symbologist Robert Langdon receives an urgent late-night phone call: the elderly curator of the Louvre has been murdered inside the museum. Near the body, police have found a baffling cipher. While working to solve the enigmatic riddle, Langdon is stunned to discover it leads to a trail of clues hidden in the works of Da Vinci -- clues visible for all to see -- yet ingeniously disguised by the painter.\r\n\r\nLangdon joins forces with a gifted French cryptologist, Sophie Neveu, and learns the late curator was involved in the Priory of Sion -- an actual secret society whose members included Sir Isaac Newton, Botticelli, Victor Hugo, and Da Vinci, among others.\r\n\r\nIn a breathless race through Paris, London, and beyond, Langdon and Neveu match wits with a faceless powerbroker who seems to anticipate their every move. Unless Langdon and Neveu can decipher the labyrinthine puzzle in time, the Priory's ancient secret -- and an explosive historical truth -- will be lost forever.",
+    "publication_date": "2003-03-18",
+    "genre": [
+      2,
+      6
+    ],
+    "author": [
+      5
+    ],
+    "favorites": []
+  }
+},
+{
+  "model": "books.book",
+  "pk": 4,
+  "fields": {
+    "title": "Make Something Wonderful",
+    "description": "A curated collection of Steve’s speeches, interviews and correspondence, Make Something Wonderful offers an unparalleled window into how one of the world’s most creative entrepreneurs approached his life and work. In these pages, Steve shares his perspective on his childhood, on launching and being pushed out of Apple, on his time with Pixar and NeXT, and on his ultimate return to the company that started it all.\r\nFeaturing an introduction by Laurene Powell Jobs and edited by Leslie Berlin, this beautiful handbook is designed to inspire readers to make their own “wonderful somethings” that move the world forward.",
+    "publication_date": "2023-04-11",
+    "genre": [
+      10
+    ],
+    "author": [
+      3
+    ],
+    "favorites": []
+  }
+},
+{
+  "model": "books.book",
+  "pk": 5,
+  "fields": {
+    "title": "Sapiens: A Brief History of Humankind",
+    "description": "From a renowned historian comes a groundbreaking narrative of humanity’s creation and evolution—a #1 international bestseller—that explores the ways in which biology and history have defined us and enhanced our understanding of what it means to be “human.” One hundred thousand years ago, at least six different species of humans inhabited Earth. Yet today there is only one—homo sapiens. What happened to the others? And what may happen to us? Most books about the history of humanity pursue either a historical or a biological approach, but Dr. Yuval Noah Harari breaks the mold with this highly original book that begins about 70,000 years ago with the appearance of modern cognition. From examining the role evolving humans have played in the global ecosystem to charting the rise of empires, Sapiens integrates history and science to reconsider accepted narratives, connect past developments with contemporary concerns, and examine specific events within the context of larger ideas. Dr. Harari also compels us to look ahead, because over the last few decades humans have begun to bend laws of natural selection that have governed life for the past four billion years. We are acquiring the ability to design not only the world around us, but also ourselves. Where is this leading us, and what do we want to become? Featuring 27 photographs, 6 maps, and 25 illustrations/diagrams, this provocative and insightful work is sure to spark debate and is essential reading for aficionados of Jared Diamond, James Gleick, Matt Ridley, Robert Wright, and Sharon Moalem.",
+    "publication_date": "2015-02-10",
+    "genre": [
+      7,
+      13
+    ],
+    "author": [
+      4
+    ],
+    "favorites": []
+  }
+},
+{
+  "model": "books.book",
+  "pk": 6,
+  "fields": {
+    "title": "The Twelve Chairs",
+    "description": "\"The Twelve Chairs\" is a novel by Ilya Ilf and Yevgeny Petrov, published in 1928. Civil servant Ippolit Matveyevich Vorobyaninov learns that jewelry is kept in one of the chairs in his family's living room. It remains only to find all the chairs, for which Vorobyaninov goes to his hometown. On the way, he comes across the adventurer Ostap Bender, with whom Vorobyaninov will have to travel the whole country in search of a treasure.",
+    "publication_date": "1928-01-01",
+    "genre": [
+      2
+    ],
+    "author": [
+      6,
+      7
+    ],
+    "favorites": []
+  }
+},
+{
+  "model": "books.book",
+  "pk": 7,
+  "fields": {
+    "title": "A Cloud in Trousers",
+    "description": "V. Mayakovsky in the poem \"The Cloud in the Pants\" sought with all the content to reach the very root of human suffering in the structure of society that makes war inevitable. The poem expresses sympathy for the suffering person, and also shows the glorification of the activity of the oppressed and disadvantaged themselves.",
+    "publication_date": "1915-01-01",
+    "genre": [
+      3
+    ],
+    "author": [
+      8
+    ],
+    "favorites": []
+  }
+},
+{
+  "model": "books.author",
+  "pk": 1,
+  "fields": {
+    "name": "Leo Tolstoy"
+  }
+},
+{
+  "model": "books.author",
+  "pk": 2,
+  "fields": {
+    "name": "Fyodor Dostoevsky"
+  }
+},
+{
+  "model": "books.author",
+  "pk": 3,
+  "fields": {
+    "name": "Steve Jobs"
+  }
+},
+{
+  "model": "books.author",
+  "pk": 4,
+  "fields": {
+    "name": "Yuval Noah Harari"
+  }
+},
+{
+  "model": "books.author",
+  "pk": 5,
+  "fields": {
+    "name": "Dan Brown"
+  }
+},
+{
+  "model": "books.author",
+  "pk": 6,
+  "fields": {
+    "name": "Ilya Ilf"
+  }
+},
+{
+  "model": "books.author",
+  "pk": 7,
+  "fields": {
+    "name": "Yevgeny Petrov"
+  }
+},
+{
+  "model": "books.author",
+  "pk": 8,
+  "fields": {
+    "name": "Vladimir Mayakovsky"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Fiction"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Novel"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Poetry"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 4,
+  "fields": {
+    "name": "Fantasy"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 5,
+  "fields": {
+    "name": "Sci-Fi"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Detective"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 7,
+  "fields": {
+    "name": "Historical"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 8,
+  "fields": {
+    "name": "Horror"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 9,
+  "fields": {
+    "name": "Romance"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 10,
+  "fields": {
+    "name": "Memoir & Autobiography"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 11,
+  "fields": {
+    "name": "Business"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 12,
+  "fields": {
+    "name": "Children's"
+  }
+},
+{
+  "model": "books.genre",
+  "pk": 13,
+  "fields": {
+    "name": "Non-fiction"
+  }
+}
+]

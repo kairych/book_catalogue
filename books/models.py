@@ -18,14 +18,14 @@ class Book(models.Model):
     )
     favorites = models.ManyToManyField(
         get_user_model(),
-        null=True,
         blank=True,
         related_name='favorite_books',
         verbose_name='Favorites'
     )
 
     def __str__(self):
-        return f'{self.title} by {self.author}'
+        author_names = ", ".join(author.name for author in self.author.all())
+        return f'{self.title} by {author_names}'
 
 
 class Author(models.Model):
