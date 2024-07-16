@@ -48,7 +48,9 @@
     "author": [
       5
     ],
-    "favorites": []
+    "favorites": [
+      1
+    ]
   }
 },
 {
@@ -114,7 +116,9 @@
     "author": [
       8
     ],
-    "favorites": []
+    "favorites": [
+      1
+    ]
   }
 },
 {
@@ -262,6 +266,39 @@
   "pk": 13,
   "fields": {
     "name": "Non-fiction"
+  }
+},
+{
+  "model": "books.review",
+  "pk": 1,
+  "fields": {
+    "text": "I like this book a lot!",
+    "rating": 5,
+    "author": 1,
+    "book": 3,
+    "created_at": "2024-07-16T08:52:11.157Z"
+  }
+},
+{
+  "model": "books.review",
+  "pk": 2,
+  "fields": {
+    "text": "Not bad, but prefer another writing style",
+    "rating": 3,
+    "author": 2,
+    "book": 3,
+    "created_at": "2024-07-16T08:52:42.957Z"
+  }
+},
+{
+  "model": "books.review",
+  "pk": 3,
+  "fields": {
+    "text": "This is my favorite book of all time!",
+    "rating": 5,
+    "author": 2,
+    "book": 1,
+    "created_at": "2024-07-16T09:01:51.381Z"
   }
 }
 ]
