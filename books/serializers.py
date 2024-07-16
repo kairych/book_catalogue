@@ -18,7 +18,7 @@ class AuthorSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = get_user_model()
-        fields = ['username']
+        fields = ['email']
 
 
 class ReviewSerializer(serializers.ModelSerializer):
@@ -41,6 +41,11 @@ class BookListSerializer(serializers.ModelSerializer):
         fields = ['title', 'genre', 'author', 'publication_date', 'average_rating', 'is_favorited', 'url']
 
     def get_is_favorited(self, obj):
+        """
+        Method shows if selected book is favorited by current user or not.
+        :param obj: Book object
+        :return: boolean
+        """
         request = self.context.get('request', None)
         if request and request.user in obj.favorites.all():
             return True
